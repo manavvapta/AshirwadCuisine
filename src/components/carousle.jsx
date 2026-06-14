@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const items = [
-  { img: "/images/cake.jpg", name: "Cake", price: "₹199", desc: "Fresh & Custom Cakes" },
+  { img: "/images/cake.jpg", name: "Cake", price: "₹299", desc: "Fresh & Custom Cakes" },
   { img: "/images/burger.jpg", name: "Burger", price: "₹49", desc: "Loaded with cheese" },
   { img: "/images/sandwich.jpg", name: "Sandwich", price: "₹49", desc: "Fresh & crispy" },
   { img: "/images/pizza.jpg", name: "Pizza", price: "₹99", desc: "Cheesy & hot" },
-  { img: "/images/cake.jpg", name: "Cake", price: "₹199", desc: "Sweet & soft" },
+  { img: "/images/cake1.jpg", name: "Cake", price: "₹199", desc: "Sweet & soft" },
 ];
 
 const CurvedSlider = () => {

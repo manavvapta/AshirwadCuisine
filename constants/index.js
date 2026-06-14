@@ -19,55 +19,91 @@ const navLinks = [
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Red Velvet Cheese Cake",
+    country: "1",
+    detail: "Pound",
+    price: "350₹",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Chocolate Truffle Cake",
+    country: "1",
+    detail: "Pound",
+    price: "299₹",
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Pineapple Cake",
+    country: "1",
+    detail: "Pound",
+    price: "275₹",
+  },
+
+  {
+    name: "Vanilla Cake",
+    country: "1",
+    detail: "Pound",
+    price: "250₹",
+  },
+];
+
+const allCocktails = [
+  {
+    id: 1,
+    name: "Red Velvet Cheese Cake",
+    image: "/images/drink1.png",
+    title: "Rich Red Velvet, Creamy Cheesecake Delight",
+    description:
+      "A perfect blend of moist red velvet cake and smooth cheesecake, layered together for a rich, velvety texture. Topped with cream cheese frosting, it's a delicious dessert made for every special occasion.",
   },
   {
-    name: "Irish Guinness",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    id: 2,
+    name: "Chocolate Truffle Cake",
+    image: "/images/drink2.png",
+    title: "Deep Chocolate Flavor in Every Bite",
+    description:
+      "Crafted with layers of rich chocolate sponge and silky truffle ganache, this decadent cake delivers an intense chocolate experience. Perfect for celebrations, chocolate lovers, and every sweet craving in between.",
   },
+  {
+    id: 3,
+    name: "Pineapple Cake",
+    image: "/images/drink3.png",
+    title: "Tropical Sweetness in Every Slice",
+    description:
+      "Light, fluffy, and filled with the refreshing taste of juicy pineapples, this cake offers the perfect balance of sweetness and fruitiness. A delightful dessert that's ideal for birthdays, gatherings, and special moments.",
+  },
+ {
+  id: 4,
+  name: "Vanilla Cake",
+  image: "/images/drink4.png",
+  title: "Classic Vanilla, Timeless Delight",
+  description:
+    "Soft, light, and beautifully flavored with premium vanilla, this classic cake is loved for its simplicity and elegance. Perfectly layered and finished with smooth frosting, it’s a treat that never goes out of style.",
+},
 ];
 
 const mockTailLists = [
   {
-    name: "Tropical Bloom",
-    country: "US",
-    detail: "Battle",
-    price: "$10",
+    name: "Fresh And Customise Cakes",
+    country: "Starting",
+    detail: "At",
+    price: "350₹",
   },
   {
-    name: "Passionfruit Mint",
-    country: "US",
-    detail: "Battle",
-    price: "$49",
+    name: "Fresh Pizza",
+    country: "Starting",
+    detail: "At",
+    price: "99₹",
   },
   {
-    name: "Citrus Glow",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Fresh Sandwich",
+    country: "Starting",
+    detail: "At",
+    price: "49₹",
   },
   {
-    name: "Lavender Fizz",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    name: "Fresh Burger",
+    country: "Starting",
+    detail: "At",
+    price: "49₹",
   },
 ];
 
@@ -115,48 +151,7 @@ const socials = [
   {
     name: "Instagram",
     icon: "/images/insta.png",
-    url: "#",
-  },
-
-  {
-    name: "Facebook",
-    icon: "/images/fb.png",
-    url: "#",
-  },
-];
-
-const allCocktails = [
-  {
-    id: 1,
-    name: "Classic Mojito",
-    image: "/images/drink1.png",
-    title: "Simple Ingredients, Bold Flavor",
-    description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-  },
-  {
-    id: 2,
-    name: "Raspberry Mojito",
-    image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
-    description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
-  },
-  {
-    id: 3,
-    name: "Violet Breeze",
-    image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
-    description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-  },
-  {
-    id: 4,
-    name: "Curacao Mojito",
-    image: "/images/drink4.png",
-    title: "Crafted With Care, Poured With Love",
-    description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+    url: "https://www.instagram.com/aashirwad_cuisine?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
 ];
 

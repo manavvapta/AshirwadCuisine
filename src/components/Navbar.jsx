@@ -16,7 +16,7 @@ const Navbar = () => {
       "nav",
       { backgroundColor: "transparent" },
       {
-        backgroundColor: "rgba(0, 0, 0, 0.83)",
+        backgroundColor: "rgba(0, 0, 0, 0.86)",
         backgroundFilter: "blur(10px)",
         duration: 1,
         ease: "power1.inOut",
@@ -27,21 +27,31 @@ const Navbar = () => {
   return (
     <nav>
       <div>
-        <a href="#home" className="flex items-center gap-2">
-          <img
-            src="/images/logo.png"
-            alt="logo"
-            className="h-15 w-15 br-15 rounded-4xl "
-          />
-          <p className="text-[#C9A227]">Ashirwad Cuisine</p>
-        </a>
+       <a href="#home" className="flex items-center gap-2 sm:gap-3">
+  <img
+    src="/images/logo.png"
+    alt="logo"
+    className="h-12 w-12 sm:h-15 sm:w-15 rounded-4xl"
+  />
 
-      <ul>
-  {navLinks.map((link) => (
-    <li key={link.id}>
-      <a
-        href={`#${link.id}`}
-        className="
+  <div className="flex flex-col justify-center">
+   <h1 className="text-[#C9A227] font-bold text-lg sm:text-2xl md:text-3xl leading-none">
+  Ashirwad Cuisine
+</h1>
+
+    <p className="text-[#C9A227] text-[11px] sm:text-xs md:text-sm leading-none -mt-2 font-medium">
+  Taste of Blessings
+</p>
+  </div>
+</a>
+
+        <ul>
+          {navLinks.map((link) => (
+            <li key={link.id}>
+              <a
+                href={`#${link.id}`}
+                className="
+          
           bg-[#0F3B2E]
           text-[#C9A227]
           px-4 py-2
@@ -53,13 +63,12 @@ const Navbar = () => {
           hover:scale-105
           hover:shadow-lg
         "
-      >
-        {link.title}
-      </a>
-    </li>
-  ))}
-</ul>
-
+              >
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
