@@ -153,6 +153,11 @@ const socials = [
     icon: "/images/insta.png",
     url: "https://www.instagram.com/aashirwad_cuisine?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
+   {
+    name: "WhatsApp",
+    icon: "/images/whatsapp.png",
+    url: "https://wa.me/918349027354",
+  },
 ];
 
 export {
